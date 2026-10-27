@@ -1,6 +1,6 @@
-# Iverleads website
+# Iverleads landing page
 
-This is a Next.js App Router project for iverleads.com. Install dependencies with `npm install`, then run `npm run dev` for a local preview or `npm run build` to create a production build.
+This is a self-contained responsive landing page. Upload the contents of this folder to any static hosting provider (such as Netlify, Vercel, Cloudflare Pages, or your existing web host). `index.html` automatically opens the finished premium page in `redesign.html`.
 
-SEO configuration lives in `app/layout.tsx`, with JSON-LD markup in `app/page.tsx`, plus dynamic `app/sitemap.ts` and `app/robots.ts` routes.
+The enquiry form currently completes in-browser to give visitors immediate feedback. Connect `premium.js` to your preferred form receiver (Formspree, Netlify Forms, HubSpot, or your own API) before publishing if you want enquiries delivered automatically.
 # iverleads
